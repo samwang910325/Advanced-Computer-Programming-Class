@@ -17,7 +17,7 @@
 
           Sample code of  how to using mysort.c
 
-**report.docx ** 
-
+**report.docx** 
+ 
           the report of hw1
 
