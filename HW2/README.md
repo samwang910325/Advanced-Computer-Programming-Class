@@ -21,4 +21,6 @@
 
           sorting gen.bin throgh weights , office number , name of dictiorinary order
 
+**Ex2.docx** 
 
+          the report of this homework
