@@ -17,10 +17,7 @@
 
           Sample code of  how to using mysort.c
 
-**sort.c** 
+**report.docx** 
+ 
+          the report of hw1
 
-          sorting gen.bin throgh weights , office number , name of dictiorinary order
-
-**Ex2.docx** 
-
-          the report of this homework
