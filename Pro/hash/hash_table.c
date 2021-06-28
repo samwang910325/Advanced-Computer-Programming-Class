@@ -34,5 +34,6 @@ int peek(table* t,int key)
         if(current->key==key) break;
         current = current->next; 
     }
-    return current->val;
+    if(current==NULL) return -1;
+    else              return current->val;
 }
