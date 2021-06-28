@@ -1,20 +1,20 @@
 
 #include "disjoint_set.h"
 
-disjoint_set* djs_gen(int range)
+disjoint_set* djs_gen(void)
 {
     disjoint_set* new = (disjoint_set*) malloc(sizeof(disjoint_set));
     
     new->size = 1;
-    new->key = 0;
+    new->key = k;
     new->p = &new;
     return new ;
 }
 
-disjoint_set* djs_make_set(disjoint_set* q)
+disjoint_set* djs_make_set(int v,disjoint_set* q)
 {
     q->size = 1;
-    q->key = 0;
+    q->key = v ;
     q->p = q;
     return q ;
 }
@@ -43,3 +43,4 @@ int djs_Union(disjoint_set* a,disjoint_set *b)
     }
     return 1 ;
 }
+
