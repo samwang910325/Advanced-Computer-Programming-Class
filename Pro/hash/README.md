@@ -1,4 +1,4 @@
-# Structure -- Queue
+# Structure -- table
 
 ## You should include  "stdio.h","stdlib.h",and "hash_table.h"  
 
