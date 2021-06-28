@@ -1,4 +1,4 @@
-# Structure -- Stack
+# Structure -- Disjoint Set
 
 ## You should include  "stdio.h","stdlib.h",and "djs_set.h" 
 
